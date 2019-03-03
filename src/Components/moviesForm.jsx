@@ -22,7 +22,7 @@ const MoviesForm = ({ match, history }) => {
         </thead>
         <tbody>
           <tr>
-            <td>{movie._id}</td>
+            <td style={{ fontWeight: "bold" }}>{movie._id}</td>
             <td>{movie.title}</td>
 
             <td>{movie.genre.name}</td>
